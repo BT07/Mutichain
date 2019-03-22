@@ -1,0 +1,15 @@
+
+<section id="logincreator">
+    <div style="text-align:center" >
+      <h1>LOGIN CREATOR</h1>
+    </div>
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" >
+    <div class="login">
+      <input type="text" name="Username" id="username" ngModel>  
+      <input type="password" name="Password" id="password" ngModel>  
+      <a href="#" class="forgot">Forgot Password ?</a>
+      <input type="submit" value="Sign In">
+    </div>
+    </form>
+    <div class="shadow"></div>
+</section>

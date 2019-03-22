@@ -1,0 +1,80 @@
+.login
+{
+  background: #eceeee;
+  border: 3px solid #42464b;
+  border-radius: 7px;
+  height: 400px;
+  margin: 50px auto 0;
+  width: 400px;
+  font-family:Arial, "Helvetica", sans-serif;
+  cursor:pointer;
+
+}
+input[type="password"], input[type="text"] {
+  border: 3px solid rgb(128, 125, 125);
+  border-radius: 6px;
+  box-shadow: 0 3px grey;
+  box-sizing: border-box;
+  color: black;
+  height: 70px;
+  margin: 61px 0 0 49px;
+  padding-left: 55px;
+  transition: box-shadow 0.3s;   
+  width: 300px;
+  cursor:pointer;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(37, 114, 106, 0.3);
+  outline: 0;
+  cursor:pointer;
+}
+.forgot {
+  color: #022188;
+  display: inline-block;
+  float: right;
+  font: 14px/1 sans-serif;
+  left: -19px;
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+  transition: color .4s;
+  font-family:Arial, "Helvetica", sans-serif;
+  cursor:pointer;
+}
+
+.forgot:hover { color: red }
+
+input[type="submit"] {
+  width:320px;
+  height:50px;
+  display:block;
+  font-family:Arial, "Helvetica", sans-serif;
+  font-size:22px;
+  font-weight:bold;
+  color:#fff;
+  text-transform:uppercase;
+  text-align:center;
+  padding-top:10px;
+  margin: 29px 0 0 29px;
+  position:relative;
+  cursor:pointer;  
+  background-color: #2eb3a5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:10px;
+}
+
+.shadow {
+  background: #000;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 0 20px 10px #000;
+  height: 30px;
+  margin: 30px auto;
+  opacity: 0.1;
+  width: 270px;
+  margin-bottom: 380px;
+}
+input[type="submit"]:active {
+  margin-top:8px;
+}
